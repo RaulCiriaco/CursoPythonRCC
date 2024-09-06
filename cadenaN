@@ -1,0 +1,8 @@
+# Pedir la cadena al usuario
+cadena = input("Ingresa una cadena de texto: ")
+
+# Contar el número de caracteres
+cantidad_caracteres = len(cadena)
+
+# Imprimir el resultado
+print("La cantidad de caracteres en la cadena es:", cantidad_caracteres)
