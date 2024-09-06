@@ -1,0 +1,10 @@
+# Pedir el número al usuario
+numero = int(input("Ingresa un número entero positivo: "))
+
+# Calcular el factorial
+factorial = 1
+for i in range(1, numero + 1):
+    factorial *= i
+
+# Imprimir el resultado
+print("El factorial de", numero, "es:", factorial)
