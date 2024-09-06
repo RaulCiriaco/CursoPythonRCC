@@ -1,0 +1,10 @@
+import math
+
+# Solicitar el radio al usuario
+radio = float(input("Introduce el radio del círculo: "))
+
+# Calcular el área
+area = math.pi * (radio ** 2)
+
+# Imprimir el resultado
+print("El área del círculo es:", area)
