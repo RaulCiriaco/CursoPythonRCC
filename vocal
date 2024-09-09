@@ -1,0 +1,4 @@
+cadena = input("Introduce una cadena de texto: ")
+vocales = "aeiou"
+contador = sum(1 for char in cadena.lower() if char in vocales)
+print(f"El número de vocales en la cadena es: {contador}")
