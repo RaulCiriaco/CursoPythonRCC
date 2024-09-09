@@ -1,0 +1,4 @@
+entrada = input("Introduce una lista de números separados por comas: ")
+numeros = [float(num) for num in entrada.split(',')]
+suma = sum(numeros)
+print("La suma de los elementos es:", suma)
