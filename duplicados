@@ -1,0 +1,4 @@
+entrada = input("Introduce una lista de números separados por comas: ")
+numeros = [int(num) for num in entrada.split(',')]
+numeros_unicos = list(set(numeros))
+print("Lista sin duplicados:", numeros_unicos)
