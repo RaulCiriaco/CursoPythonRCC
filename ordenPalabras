@@ -1,0 +1,4 @@
+cadena = input("Introduce una cadena de texto: ")
+palabras = cadena.split()
+palabras_ordenadas = sorted(palabras)
+print("Palabras ordenadas alfabéticamente:", ' '.join(palabras_ordenadas))
