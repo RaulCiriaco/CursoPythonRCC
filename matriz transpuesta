@@ -1,0 +1,13 @@
+def transponer_matriz(matriz):
+    return [list(x) for x in zip(*matriz)]
+
+matriz = []
+print("Introduce los elementos de la matriz 2x2:")
+for i in range(2):
+    fila = [int(x) for x in input(f"Fila {i + 1} (separados por espacios): ").split()]
+    matriz.append(fila)
+
+matriz_transpuesta = transponer_matriz(matriz)
+print("La matriz transpuesta es:")
+for fila in matriz_transpuesta:
+    print(fila)
