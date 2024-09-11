@@ -1,0 +1,8 @@
+def fibonacci(n):
+    secuencia = [0, 1]
+    while len(secuencia) < n:
+        secuencia.append(secuencia[-1] + secuencia[-2])
+    return secuencia
+
+n = int(input("Introduce el número de términos en la secuencia de Fibonacci: "))
+print(f"La secuencia de Fibonacci es: {fibonacci(n)}")
