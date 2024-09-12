@@ -1,0 +1,12 @@
+def buscar_en_diccionarios(lista_diccionarios, valor_buscar):
+    resultados = [d for d in lista_diccionarios if valor_buscar in d.values()]
+    return resultados
+
+diccionarios = [
+    {"nombre": "Juan", "edad": 30},
+    {"nombre": "Ana", "edad": 25},
+    {"nombre": "Pedro", "edad": 30}
+]
+valor = int(input("Introduce el valor a buscar: "))
+resultados = buscar_en_diccionarios(diccionarios, valor)
+print("Diccionarios que contienen el valor:", resultados)
