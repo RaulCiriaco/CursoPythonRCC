@@ -1,0 +1,12 @@
+import numpy as np
+
+# Crea un array con 10 números aleatorios
+arr = np.random.randint(1, 101, size=10)
+print("Array de números aleatorios:", arr)
+
+# Calcula y muestra la media
+print("Media:", np.mean(arr))
+
+# Encuentra y muestra el valor máximo y mínimo
+print("Valor máximo:", np.max(arr))
+print("Valor mínimo:", np.min(arr))
