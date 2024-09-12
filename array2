@@ -1,0 +1,15 @@
+import numpy as np
+
+# Crea un array con los números del 1 al 10
+arr = np.arange(1, 11)
+print("Array original:", arr)
+
+# Imprime el valor del tercer elemento
+print("Tercer elemento:", arr[2])
+
+# Imprime el array en orden inverso
+print("Array inverso:", arr[::-1])
+
+# Agrega el número 11 al final del array
+arr = np.append(arr, 11)
+print("Array después de agregar 11:", arr)
