@@ -1,0 +1,7 @@
+def sumar_numeros_archivo(nombre_archivo):
+    suma = 0
+    with open(nombre_archivo, 'r') as archivo:
+        for linea in archivo:
+            suma += float(linea.strip())
+    return suma
+
