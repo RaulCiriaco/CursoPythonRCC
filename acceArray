@@ -1,0 +1,2 @@
+## acceder al primer elemento de las dos primeras filas del array
+array_multi[0:2,2]
