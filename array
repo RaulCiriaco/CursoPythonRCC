@@ -1,0 +1,4 @@
+# Acceder a los elementos de un array 
+array_uni = np.array( [1 ,3 ,5 ,7 ,9 ,11 ])
+print("Shape:", array_uni.shape)
+print("Array_uni:", array_uni)
