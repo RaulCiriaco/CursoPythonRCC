@@ -1,0 +1,7 @@
+def eliminar_duplicados(array):
+    return list(set(array))
+
+# Ejemplo de lista con duplicados
+array = [1, 2, 2, 3, 4, 4, 5]
+array_sin_duplicados = eliminar_duplicados(array)
+print("El array sin duplicados es:", array_sin_duplicados)
