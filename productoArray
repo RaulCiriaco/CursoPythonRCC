@@ -1,0 +1,9 @@
+def producto_array(array):
+    producto = 1
+    for num in array:
+        producto *= num
+    return producto
+
+# Ejemplo de lista
+array = [1, 2, 3, 4, 5]
+print("El producto de los elementos del array es:", producto_array(array))
