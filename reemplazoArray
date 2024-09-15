@@ -1,0 +1,9 @@
+import numpy as np
+
+# Crea un array con números del 1 al 15
+arr = np.arange(1, 16)
+print("Array original:", arr)
+
+# Reemplaza todos los números mayores a 10 por el valor 100
+arr[arr > 10] = 100
+print("Array después del reemplazo:", arr)
