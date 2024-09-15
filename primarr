@@ -1,0 +1,14 @@
+def es_primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def generar_primos(hasta):
+    return [x for x in range(2, hasta + 1) if es_primo(x)]
+
+limite = int(input("Introduce el límite superior para la lista de primos: "))
+primos = generar_primos(limite)
+print("Números primos hasta", limite, "son:", primos)
