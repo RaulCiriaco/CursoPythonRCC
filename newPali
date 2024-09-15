@@ -1,0 +1,9 @@
+def es_palindromo(cadena):
+    cadena_limpia = ''.join(cadena.split()).lower()
+    return cadena_limpia == cadena_limpia[::-1]
+
+cadena = input("Introduce una cadena para verificar si es un palíndromo: ")
+if es_palindromo(cadena):
+    print("La cadena es un palíndromo.")
+else:
+    print("La cadena no es un palíndromo.")
