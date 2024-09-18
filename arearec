@@ -1,0 +1,4 @@
+base = float(input("¿Cuál es la base del rectángulo? "))
+altura = float(input("¿Cuál es la altura del rectángulo? "))
+area = base * altura
+print("El área del rectángulo es: ", area)
