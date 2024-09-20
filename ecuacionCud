@@ -1,0 +1,18 @@
+import math
+
+def resolver_ecuacion_cuadratica(a, b, c):
+    discriminante = b ** 2 - 4 * a * c
+    
+    if discriminante > 0:
+        x1 = (-b + math.sqrt(discriminante)) / (2 * a)
+        x2 = (-b - math.sqrt(discriminante)) / (2 * a)
+        return (x1, x2)
+    elif discriminante == 0:
+        x = -b / (2 * a)
+        return (x,)
+    else:
+        return "No tiene soluciones reales"
+
+# Ejemplo de uso
+a, b, c = 1, -3, 2
+print(f"Las soluciones son: {resolver_ecuacion_cuadratica(a, b, c)}")
